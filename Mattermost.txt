@@ -1,0 +1,15 @@
+LINKS:
+GitHub: https://github.com/mattermost/mattermost/tree/master
+Contribution page: https://developers.mattermost.com/contribute/more-info/getting-started/
+Good first issues: https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+org%3Amattermost+label%3A%22Help+Wanted%22++label%3A%22Up+For+Grabs%22&type=issues
+
+Developer setup: https://developers.mattermost.com/contribute/developer-setup/
+
+
+> Rules of thumb
+. if issue is less than 20 lines of code then it will be issue without a ticket and you can directly PR on those issue 
+. For ticket issues you need to create ticket by talking to contributors on developer channel or contributors channel
+. access the devapp at: localhost:8065
+. If there's already an existing bug in Jira, it will be linked back to the GitHub issue so you can track when it gets fixed.
+
+
