@@ -1,0 +1,48 @@
+LINKS:
+GitHub: https://github.com/mattermost/mattermost/tree/master
+Contribution page: https://developers.mattermost.com/contribute/more-info/getting-started/
+Good first issues: https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+org%3Amattermost+label%3A%22Help+Wanted%22++label%3A%22Up+For+Grabs%22&type=issues
+Forums(less likely to be used): https://forum.mattermost.com/t/start-here-welcome-to-the-mattermost-forums/8
+Channels: https://community.mattermost.com/core/channels/developers
+Development setup: https://developers.mattermost.com/contribute/developer-setup/
+
+VERY IMPORTANT PAGE: https://developers.mattermost.com/contribute/more-info/desktop/
+
+> Web application + Electron => OS application {OS => Windows, Linux etc...}
+
+STARTING SERVER
+> localhost:8065
+> cd server => make run-server
+> test above => curl http://localhost:8065/api/v4/system/ping
+> make run || make stop-server => make stop-docker
+
+> Guilds and channel part:  
+. Now for guild and other channels can be found at Channels page and on the left side you can see different guilds like web-app, sever and so on....
+. Weekly meetings also happend at contributor channel at 9:00 every Wednesday => look out for this if you wanted
+
+> In thank-you channel we have GitHub profiles of flagship contributors so can check that out
+
+> see bugs-channel and try to fix them or help people out
+
+
+ 
+
+
+
+> Rules of thumb
+. if issue is less than 20 lines of code then it will be issue without a ticket and you can directly PR on those issue 
+. For ticket issues you need to create ticket by talking to contributors on developer channel or contributors channel
+. access the devapp at: localhost:8065
+. If there's already an existing bug in Jira, it will be linked back to the GitHub issue so you can track when it gets fixed.
+
+
+> cybersecurity programs (might be irrelevant)
+. https://hackerone.com/mattermost     => can try after couples of PR
+. 
+
+
+
+
+INSTALL USING DOCKER OR KUBERNETES ONLY IT WILL HELP IN REVISE
+
+

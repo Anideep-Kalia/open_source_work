@@ -1,0 +1,20 @@
+Removing profile pictures as admin
+Is there a way for admins to delete the current profile picture of a user?
+I haven't found an option for it in mmctl or the admin interface.
+
+2 replies
+
+Kennet
+5 days ago
+We removed the profile.png in the user folder as a quick solution. But it feels like there should be a way without requiring ash access to the server. 
+
+
+Joram Wilander
+5 days ago
+
+
+
+
+Any user that has edit_other_users permission (like a system admin) could do it through the REST API: https://api.mattermost.com/#tag/users/operation/SetDefaultProfileImage
+
+We'd accept a PR to add that functionality to mmctl if someone wanted to contribute it 
