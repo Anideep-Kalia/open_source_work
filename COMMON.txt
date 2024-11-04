@@ -1,8 +1,9 @@
 Familiarize yourself => MOST IMPORTANT
 
-ZULIP:
+-------------------ZULIP--------------------
 Claiming a issue: simply post a comment that says @zulipbot claim  => only for zulip/zulip and zulip/zulip-terminal
 
+RUNNING ENVIROMENT
 ./tools/provision
 source /srv/zulip-py3-venv/bin/activate
 ./tools/run-dev
