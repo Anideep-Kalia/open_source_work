@@ -17,10 +17,15 @@ RUNNING ENVIROMENT
 source /srv/zulip-py3-venv/bin/activate
 ./tools/run-dev
 
+DIFFERENT BRANCH RR
+git checkout feature-branch
+git rebase upstream/main
+git push origin feature-branch
+
 SYNCHORINING FORK
 -> fetch upstream
 -> git checkout main
--> git rebase upstream/main
+-> git rebase upstream/main    {this means rebase from main branch of upstream}
 
 AFTER COMMIT 
 tools/setup-git-repo  => linting after code change in a file 
@@ -40,3 +45,4 @@ LINTING:
 ./tools/test-tools
 ./tools/check-frontend-i18n
 ./tools/setup-git-repo			 #linting is also automatically done whenever we will commit some changes
+
