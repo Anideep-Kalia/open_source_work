@@ -1,5 +1,13 @@
 Familiarize yourself => MOST IMPORTANT
 
+------------------APPROACH------------------
+Create a Branch: git checkout -b feature-branch-name
+Make Changes
+Test Locally
+Commit Changes: git add . => git commit -m "Fix: Issue description or feature name"
+Push Changes: git push origin feature-branch-name
+Open a Pull Request
+
 -------------------ZULIP--------------------
 Claiming a issue: simply post a comment that says @zulipbot claim  => only for zulip/zulip and zulip/zulip-terminal
 issues resolved by  running ./tools/provision (from /srv/zulip) inside the Vagrant guest or equivalently vagrant provision from outside
@@ -8,6 +16,11 @@ RUNNING ENVIROMENT
 ./tools/provision
 source /srv/zulip-py3-venv/bin/activate
 ./tools/run-dev
+
+SYNCHORINING FORK
+-> fetch upstream
+-> git checkout main
+-> git rebase upstream/main
 
 AFTER COMMIT 
 tools/setup-git-repo  => linting after code change in a file 
@@ -27,9 +40,3 @@ LINTING:
 ./tools/test-tools
 ./tools/check-frontend-i18n
 ./tools/setup-git-repo			 #linting is also automatically done whenever we will commit some changes
-
-
-
-
-
-
