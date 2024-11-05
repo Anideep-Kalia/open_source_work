@@ -2,10 +2,34 @@ Familiarize yourself => MOST IMPORTANT
 
 -------------------ZULIP--------------------
 Claiming a issue: simply post a comment that says @zulipbot claim  => only for zulip/zulip and zulip/zulip-terminal
+issues resolved by  running ./tools/provision (from /srv/zulip) inside the Vagrant guest or equivalently vagrant provision from outside
 
 RUNNING ENVIROMENT
 ./tools/provision
 source /srv/zulip-py3-venv/bin/activate
 ./tools/run-dev
+
+AFTER COMMIT 
+tools/setup-git-repo  => linting after code change in a file 
+tools/lint => for all files
+./tools/run-dev => live terminal which will show runtime/backend errors
+
+ERRORS: https://zulip.readthedocs.io/en/latest/development/setup-recommended.html  [LAST SECTION]
+
+LINTING:
+./tools/test-all
+./tools/lint zerver/models/__init__.py 							# Lint the file you just changed
+./tools/test-backend zerver.tests.test_markdown.MarkdownTest.test_inline_youtube
+./tools/test-backend MarkdownTest 							# Run `test-backend --help` for more options
+./tools/test-js-with-node util
+./tools/test-run-dev
+./tools/test-tools
+./tools/check-frontend-i18n
+
+linting is also automatically done whenever we will commit some changes
+
+
+
+
 
 
