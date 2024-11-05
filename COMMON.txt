@@ -11,6 +11,7 @@ Open a Pull Request
 -------------------ZULIP--------------------
 Claiming a issue: simply post a comment that says @zulipbot claim  => only for zulip/zulip and zulip/zulip-terminal
 issues resolved by  running ./tools/provision (from /srv/zulip) inside the Vagrant guest or equivalently vagrant provision from outside
+When ready, click the Create pull request button to submit the pull request. Remember to mark your pull request as a draft if it is a work-in-progress.
 
 RUNNING ENVIROMENT
 ./tools/provision
