@@ -9,9 +9,11 @@ Push Changes: git push origin feature-branch-name
 Open a Pull Request
 
 -------------------ZULIP--------------------
-Claiming a issue: simply post a comment that says @zulipbot claim  => only for zulip/zulip and zulip/zulip-terminal
+> BLOGS: https://blog.zulip.com/
+> Claiming a issue: simply post a comment that says @zulipbot claim  => only for zulip/zulip and zulip/zulip-terminal
 issues resolved by  running ./tools/provision (from /srv/zulip) inside the Vagrant guest or equivalently vagrant provision from outside
-When ready, click the Create pull request button to submit the pull request. Remember to mark your pull request as a draft if it is a work-in-progress.
+> PULL REQUEST: When ready, click the Create pull request button to submit the pull request. Remember to mark your pull request as a draft if it is a work-in-progress.
+As you get make progress on your feature or bugfix, your pull request, once submitted, will be updated each time you push commits to your remote branch
 
 RUNNING ENVIROMENT
 ./tools/provision
