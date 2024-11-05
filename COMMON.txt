@@ -15,6 +15,7 @@ tools/lint => for all files
 ./tools/run-dev => live terminal which will show runtime/backend errors
 
 ERRORS: https://zulip.readthedocs.io/en/latest/development/setup-recommended.html  [LAST SECTION]
+GIT CODES: https://zulip.readthedocs.io/en/latest/git/index.html
 
 LINTING:
 ./tools/test-all
@@ -25,8 +26,7 @@ LINTING:
 ./tools/test-run-dev
 ./tools/test-tools
 ./tools/check-frontend-i18n
-
-linting is also automatically done whenever we will commit some changes
+./tools/setup-git-repo			 #linting is also automatically done whenever we will commit some changes
 
 
 
